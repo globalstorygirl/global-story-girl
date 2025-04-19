@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Story Girl | Pearl Hope</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fefaf5;
+      color: #4b2e2e;
+    }
+    header {
+      background-color: #a9745d;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #d9c5b2;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      color: #4b2e2e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .story-preview {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #a9745d;
+    }
+    footer {
+      background-color: #a9745d;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Global Story Girl</h1>
+    <p>by Pearl Hope</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#stories">Stories</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="home">
+      <h2>Welcome!</h2>
+      <p>Sharing heartwarming Christian stories to inspire your journey with God.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Pearl Hope, a storyteller on a mission to shine God’s light through words. Here, I share stories that speak hope, faith, and love.</p>
+    </section>
+
+    <section id="stories">
+      <h2>Latest Stories</h2>
+      <div class="story-preview">
+        <h3>Placeholder Story Title</h3>
+        <p>This is a preview of a story. It will touch hearts, uplift souls, and remind you of God's unfailing love...</p>
+        <a href="#">Read more</a>
+      </div>
+      <div class="story-preview">
+        <h3>Another Story Placeholder</h3>
+        <p>A second sample of what your beautiful Christian stories will look like here. Simple, real, and spirit-filled...</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>You can reach out via email: <a href="mailto:hopepearl@gmail.com">hopepearl76@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Global Story Girl. All rights reserved.</p>
+  </footer>
+</body>
+</html>
